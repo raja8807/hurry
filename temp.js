@@ -1,4 +1,4 @@
-//Functions
+/*//Functions
 
 function getMonthDifference(startDate, endDate) {
 
@@ -46,3 +46,5 @@ createBoxes("green", remainingMonths);
 let hurry = document.getElementById("hurry");
 let message = ("hurry! You have only " + remainingMonths + " Months Left!!");
 hurry.innerText = message;
+
+*/
