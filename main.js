@@ -16,7 +16,23 @@ let currentDate = (year+"-"+month+"-"+day);
 console.log("today "+currentDate);*/
 
 
-let birthDate = '1999-7-24'
+//let birthDate = '1999-5-24'
+
+
+
+
+let birthDate = prompt("Enter Your Birthday : 'yyyy-mm-dd'")
+
+let retiringDate = prompt("Enter Your Retirement Date : 'yyyy-mm-dd'")
+
+
+
+
+
+
+let blankMonths = new Date(birthDate).getMonth()
+
+//console.log(blankMonths)
 
 
 function getMonthDifference(startDate, endDate) {
@@ -43,13 +59,22 @@ function createBoxes(color , number){
 }
 }
 
+createBoxes("grey" , blankMonths)
+
 createBoxes("red" , pastMonths)
 
 createBoxes("yellow" , 1)
 
 
 
-let remainingMonths = getMonthDifference(new Date(), new Date('2050-01-01'))
+let remainingMonths = getMonthDifference(new Date(), new Date(retiringDate))
+
+
+let hurry = document.getElementById("hurry")
+
+let message = ("hurry! You have only "+ remainingMonths+" Months Left!!")
+
+hurry.innerText = message;
 
 //console.log(remainingMonths)
 

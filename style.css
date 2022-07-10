@@ -2,6 +2,24 @@
 				box-sizing: border-box;
 }
 
+
+.container{
+				width: 90%;
+				margin: auto;
+}
+
+.hurry{
+				font-size: 50px;
+				text-align: center;
+}
+
+.grey{
+				background-color: gray;
+				width: 20px;
+				height: 20px;
+				margin: 5px;
+}
+
 .red{
 				background-color: red;
 				width: 20px;
@@ -24,8 +42,6 @@
 }
 
 .wrapper{
-				
-				margin: auto;
 				display: flex;
 				flex-wrap: wrap;
 }
