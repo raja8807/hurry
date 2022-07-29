@@ -48,3 +48,10 @@ let message = ("hurry! You have only " + remainingMonths + " Months Left!!");
 hurry.innerText = message;
 
 */
+
+
+// const wrapper = document.getElementById("wrapper");
+// const box = document.createElement("div");
+// box.setAttribute("class", "box");
+// box.style.backgroundColor = "red"
+// wrapper.appendChild(box);

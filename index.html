@@ -3,9 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Page title</title>
+	<title>hurry..!</title>
 	<link rel="stylesheet" href="style.css">
 	</link>
+	<link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
@@ -20,19 +21,29 @@
 
 		<section class="legend">
 			<div class="legendItem">
-				<div class="red"></div>
+				<div class="box red" style="background-color:red;"></div>
 				<p> - Past Months</p>
 			</div>
 
 			<div class="legendItem">
-				<div class="yellow"></div>
+				<div class="box yellow" style="background-color:yellow;"></div>
 				<p> - You are Here!</p>
 			</div>
 
 			<div class="legendItem">
-				<div class="green"></div>
+				<div class="box green" style="background-color:green;"></div>
 				<p> - Remaining Months</p>
 			</div>
+		</section>
+
+		<section id="modeBtnContainer">
+			<div id="modeBtn">
+				<div id="modeBtn-inner">
+					<i class="fa-regular fa-moon" id="btnIcon" style="color: black; font-size: 30px; visibility: visible;" ></i>
+				</div>
+				<P id="btnText">Light Mode</P>
+			</div>
+
 		</section>
 
 	</section>
@@ -41,6 +52,8 @@
 
 
 	<script src="main.js"></script>
+	<script src="https://kit.fontawesome.com/9ae9aa99b3.js" crossorigin="anonymous"></script>
+	<!-- <script src="./temp.js"></script> -->
 </body>
 
 </html>
